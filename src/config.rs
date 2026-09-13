@@ -8,9 +8,9 @@ use std::{
 use crate::error::{CassiniError, Result, ResultContext};
 
 const DEFAULT_YELLOW_THRESHOLD: f32 = 1.; // Update the docs when modifying
-const DEFAULT_GREEN_THRESHOLD_1: f32 = 1.; // Update the docs when modifying
-const DEFAULT_GREEN_THRESHOLD_2: f32 = 2.; // Update the docs when modifying
-const DEFAULT_GREEN_THRESHOLD_3: f32 = 3.; // Update the docs when modifying
+const DEFAULT_GREEN_THRESHOLD_1: f32 = 2.; // Update the docs when modifying
+const DEFAULT_GREEN_THRESHOLD_2: f32 = 4.; // Update the docs when modifying
+const DEFAULT_GREEN_THRESHOLD_3: f32 = 6.; // Update the docs when modifying
 const DEFAULT_LOW_VEGETATION_DENSITY_THRESHOLD: f32 = 1.; // Update the docs when modifying
 const DEFAULT_CLIFF_THRESHOLD_1: f32 = 60.; // Update the docs when modifying
 const DEFAULT_CLIFF_THRESHOLD_2: f32 = 60.; // Update the docs when modifying
